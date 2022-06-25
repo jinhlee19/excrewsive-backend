@@ -62,16 +62,6 @@
       "relation": "manyToMany",
       "target": "api::tag.tag",
       "inversedBy": "events"
-    },
-    "Tagg": {
-      "type": "enumeration",
-      "enum": [
-        "Day",
-        "Night",
-        "Early Bird",
-        "Promo"
-      ],
-      "default": "Night"
     }
   }
 }
